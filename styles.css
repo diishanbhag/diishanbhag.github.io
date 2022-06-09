@@ -62,9 +62,9 @@ a:hover{
 }
 
 .pic{
-  border-radius: 50%;
-  width:25%;
-  margin-top: 20px;
+  border-radius: 100%;
+  width: 30%;
+  margin: 20px auto 15px auto;
 }
 .pice{
   border-radius: 50%;
@@ -75,11 +75,11 @@ a:hover{
 }
 .pic_gif{
   border-radius: 50%;
-  width:28%;
-  height: 150px;
+  width:35%;
+
   float: left;
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .leftcloud{
   margin-top: 0px;
