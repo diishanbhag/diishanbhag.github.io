@@ -5,6 +5,10 @@ module.exports = {
   //     '/': { page: '/' }
   //   };
   // }
+  images: {
+    unoptimized: true,
+  },
+
   output: 'export', // Use the 'export' option for static HTML export
   webpack: (config, options) => {
     config.module.rules.push({

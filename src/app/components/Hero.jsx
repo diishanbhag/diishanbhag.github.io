@@ -16,24 +16,8 @@ const HeroSection = () => {
         <section id="home" className="lg:py-16 min-h-screen flex items-center justify-center relative">
 
             <div className=" w-full items-center ">
-                
-                <Fade  duration={300} triggerOnce>
-                <div className="rounded-full  absolute  w-[25%] top-0 left-0 hidden lg:block ">
-                    <Image src={viz} alt="My GIF" />
-                </div>
-                </Fade>
-                
 
-                <Fade  duration={300} triggerOnce  >
-                <div
-                    className="rounded-full absolute   w-[28%]   -bottom-0 right-0 hidden lg:block">
-                    <Image src={viz2} alt="My GIF" />
-                </div>
-                </Fade>
-                
-
-
-                <Fade cascade direction='up'   duration={600} triggerOnce>
+            <Fade cascade direction='up'   duration={600} triggerOnce>
                     <div className="text-center ">
                         <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-600">
@@ -76,6 +60,24 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </Fade>
+                
+                <Fade  duration={300} triggerOnce>
+                <div className="rounded-full  absolute  w-[25%] top-0 left-0 hidden lg:block ">
+                    <Image src={viz} alt="My GIF" />
+                </div>
+                </Fade>
+                
+
+                <Fade  duration={300} triggerOnce  >
+                <div
+                    className="rounded-full absolute   w-[28%]   -bottom-0 right-0 hidden lg:block">
+                    <Image src={viz2} alt="My GIF" />
+                </div>
+                </Fade>
+                
+
+
+                
 
 
 
