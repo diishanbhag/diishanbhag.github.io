@@ -7,7 +7,7 @@ import ProjectTag from './ProjectTag';
 const ProjectSectionn = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [showMore, setShowMore] = useState(false);
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("Machine Learning");
 
   const handleTagChange = (newTag) => {
     setTag(newTag);
@@ -83,7 +83,7 @@ const ProjectSectionn = () => {
           />
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid md:grid-cols-3 gap-y-9  md:gap-12">
           {/** Display projects in a grid */}
           {displayedProjects.map((project, index) => (
             <ProjectCard
