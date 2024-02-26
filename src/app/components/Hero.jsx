@@ -70,7 +70,7 @@ const HeroSection = () => {
 
                 <Fade   triggerOnce  >
                 <div
-                    className="rounded-full absolute   w-[28%]   -bottom-0 right-0 hidden lg:block">
+                    className="rounded-full absolute   w-[26.5%]   -bottom-0 right-0 hidden lg:block">
                     <Image src={viz2} alt="My GIF" />
                 </div>
                 </Fade>
