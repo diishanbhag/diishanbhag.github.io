@@ -14,11 +14,11 @@ export default function Home() {
     <main className="min-h-screen  bg-[#121212]   scroll-smooth">
       <Navbar />
             <Gradient />
-            <div className="container mx-auto px-12 md:px-24 py-4">
+            <div className="container mx-auto px-9 md:px-24 py-4">
                 <Hero/>
                 <AboutSection  />
-                <ExEd />
                 <Skills/>
+                <ExEd />
                 <Projects/>
                 <EmailSection />
             </div>
