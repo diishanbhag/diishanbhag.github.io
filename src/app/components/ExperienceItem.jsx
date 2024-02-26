@@ -16,14 +16,14 @@ const ExperienceItem = ({ company, companyDescription, timeDuration, location, t
           </div>
 
           {/* Company Description */}
-          <p className='text-gray-600 mb-3 mt-2'>{companyDescription}</p>
+          <p className='text-gray-500 mb-3 mt-2'>{companyDescription}</p>
         </div>
 
         {/* Time Duration, Location, Type */}
         <div className='grid grid-row-3 '>
-          <p className='text-gray-600 lg:text-right '>{timeDuration}</p>
-          <p className='text-gray-600 lg:text-right '>{location}</p>
-          <p className='text-gray-600 lg:text-right '>{type}</p>
+          <p className='text-gray-500 lg:text-right '>{timeDuration}</p>
+          <p className='text-gray-500 lg:text-right '>{location}</p>
+          <p className='text-gray-500 lg:text-right '>{type}</p>
 
         </div>
 
