@@ -6,7 +6,7 @@ const ProjectsData = [
     description: "Bowling Action Injury Prediction and Rectification System",
     image: "/images/projects/bowl.png",
     tag: ["All", "Machine Learning"],
-    tech:["Deep Learning" ,"Computer Vision" ,"Yolo-V8" ,"STARC Internship"],
+    tech:["Deep Learning"  ,"Yolo-V8" ],
     gitUrl: "https://colab.research.google.com/drive/1zcyjBdM67uwv2RPLrwpFCaCALNuptcH3",
     previewUrl: "https://colab.research.google.com/drive/1zcyjBdM67uwv2RPLrwpFCaCALNuptcH3",
   },
