@@ -11,7 +11,7 @@ import EmailSection from "./components/EmailSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen  bg-[#121212]   scroll-smooth">
+    <main className="min-h-screen  bg-[#121212] text-white  scroll-smooth">
       <Navbar />
             <Gradient />
             <div className="container mx-auto px-9 md:px-24 py-4 text-white">
