@@ -1,4 +1,19 @@
 const ExperienceList = [
+  {
+    company: 'CognitiveLab',
+    companyDescription: 'Data engineering company specializing in cognitive computing solutions',
+    timeDuration: 'April 2024 - Present',
+    location: 'Online, Part Time',
+    type: 'Data Engineer',
+    title: 'Data Engineer',
+    detail: 'Managed ingestion and preprocessing of 20+ data sources for Vector DB compatibility.',
+    description: [
+      'Managed ingestion and preprocessing of 20+ data sources for Vector DB compatibility.',
+      'Implemented effective data chunking techniques, resulting in a 20% reduction in database query response time, enhancing system performance and scalability.',
+      'Created a streamlined data preparation pipeline, reducing data preparation time by 60% and improving overall team efficiency.'
+    ],
+    technologies: ['Data Engineering', 'Data Processing', 'Python']
+  },
     {
       company: 'STARC',
       companyDescription: 'Sports Analytics Summer Internship program by PES University.',
@@ -30,36 +45,21 @@ const ExperienceList = [
       ],
       technologies: ['Python', 'C', 'C++', 'Data Structures', 'Problem Solving', 'HTML', 'CSS', 'JavaScript', 'React'],
     },
-    {
-      company: 'CognitiveLab',
-      companyDescription: 'Data engineering company specializing in cognitive computing solutions',
-      timeDuration: 'April 2024 - Present',
-      location: 'Online, Part Time',
-      type: 'Data Engineer',
-      title: 'Data Engineer',
-      detail: 'Managed ingestion and preprocessing of 20+ data sources for Vector DB compatibility.',
-      description: [
-        'Managed ingestion and preprocessing of 20+ data sources for Vector DB compatibility.',
-        'Implemented effective data chunking techniques, resulting in a 20% reduction in database query response time, enhancing system performance and scalability.',
-        'Created a streamlined data preparation pipeline, reducing data preparation time by 60% and improving overall team efficiency.'
-      ],
-      technologies: ['Data Engineering', 'Data Processing', 'Python']
-    },
-    {
-      company: 'Urban Pro',
-      companyDescription: 'Online Teaching Platform for peer-to-peer learning',
-      timeDuration: 'July 2021 - August 2021',
-      location: 'Remote, India',
-      type: 'Freelancing',
-      title: 'Java Tutor',
-      detail: 'Taught Java to High School Students',
-      description: [
-        'Provided comprehensive Java tutoring sessions to high school students.',
-        'Emphasized object-oriented programming concepts and problem-solving skills.',
-        'Helped students grasp core Java principles and apply them to real-world scenarios.',
-      ],
-      technologies: ['Java', 'OOPs', 'Problem Solving'],
-    },
+    // {
+    //   company: 'Urban Pro',
+    //   companyDescription: 'Online Teaching Platform for peer-to-peer learning',
+    //   timeDuration: 'July 2021 - August 2021',
+    //   location: 'Remote, India',
+    //   type: 'Freelancing',
+    //   title: 'Java Tutor',
+    //   detail: 'Taught Java to High School Students',
+    //   description: [
+    //     'Provided comprehensive Java tutoring sessions to high school students.',
+    //     'Emphasized object-oriented programming concepts and problem-solving skills.',
+    //     'Helped students grasp core Java principles and apply them to real-world scenarios.',
+    //   ],
+    //   technologies: ['Java', 'OOPs', 'Problem Solving'],
+    // },
   ];
 
 export default ExperienceList;

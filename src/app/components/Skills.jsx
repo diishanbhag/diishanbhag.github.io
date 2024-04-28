@@ -6,7 +6,7 @@ import skills from '../data/SkillsData'
 const Skills = () => {
 
     return (
-        <div className='text-center  mb-24 '>
+        <div className='text-center  mb-24 mt-9 '>
             <h1 className='text-3xl mb-12  font-extrabold'>Skills</h1>
             <div className=' grid lg:grid-cols-3 gap-9  grid-cols-1'>
                 {skills.map((category, index) => (
