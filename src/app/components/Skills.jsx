@@ -1,7 +1,6 @@
 
 import React from 'react';
 import SkillCard from './SkillCard';
-import {Fade} from 'react-awesome-reveal';
 import skills from '../data/SkillsData'
 
 const Skills = () => {

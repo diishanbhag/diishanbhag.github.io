@@ -11,7 +11,7 @@ const AboutSection = () => {
     <section id="about">
 
       <div className="md:min-h-screen text-center">
-        <h1 className="text-5xl font-extrabold md:p-20 p-10 mt-20 mx-auto ">About Me</h1>
+        <h1 className="text-5xl font-extrabold md:p-20 p-10 mt-20 mx-auto text-white">About Me</h1>
 
 
         {/* contents */}
