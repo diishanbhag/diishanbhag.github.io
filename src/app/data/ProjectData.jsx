@@ -62,9 +62,9 @@ const ProjectsData = [
     description: "Developed a full-stack budget app with a chatbot to track transactions, set savings goals, and manage budgets with AI-driven categorization . ",
     image: "/images/projects/budget.png",
     tag: [ "All","Web Dev","Machine Learning"],
-    tech:["Deep Learning" ,"CNN"],
-    gitUrl: "https://www.kaggle.com/code/kumarsampurn/music-genre-classifier",
-    previewUrl: "https://www.kaggle.com/code/kumarsampurn/music-genre-classifier",
+    tech:["Machine Learning" ,"Groq"],
+    gitUrl: "https://github.com/rxndom5/flippr",
+    previewUrl: "https://github.com/rxndom5/flippr",
   },
 
   {
@@ -77,6 +77,18 @@ const ProjectsData = [
     gitUrl: "",
     previewUrl: "",
   },
+  {
+    id: 20,
+    title: "Vehicle detection",
+    description: "Detection of vehicle overspeeding and lane change for trucks for a camera footage ",
+    image: "/images/projects/audio.gif",
+    tag: [ "Machine Learning"],
+    tech:["Yolov8" ,"CNN"],
+    gitUrl: "",
+    previewUrl: "",
+  },
+
+  
 
 
 
@@ -92,7 +104,19 @@ const ProjectsData = [
     tech:[],
     gitUrl: "",
     previewUrl: "https://www.instagram.com/offtheshelf_clothing/",
+  },
+  {
+    id: 18,
+    title: "Konch",
+    description: "Lead clothing designer for the brand Konch ",
+    image: "/images/art/konch.jpeg",
+    tag: [ "Art and Design"],
+    tech:[],
+    gitUrl: "",
+    previewUrl: "https://www.konchx.com/",
   }
+  
+  
   
   ];
 
