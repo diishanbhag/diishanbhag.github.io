@@ -39,7 +39,7 @@ const ProjectSectionn = () => {
 
 
   // Slice the displayed projects to show only the first three
-  const displayedProjects = showMore ? filteredProjects : filteredProjects.slice(0, 2);
+  const displayedProjects = showMore ? filteredProjects : filteredProjects.slice(0, 5);
 
   return (
     <section id="projects" className='pt-6 px-5'>

@@ -19,7 +19,7 @@ const AboutItems = () => {
                 <div className="flex justify-center items-center">
                     <AboutItem
                         icon={Linkdin}
-                        title={"Kaggle Notebooks"}
+                        title={"Linkedin"}
                         href="https://www.linkedin.com/in/disha-shanbhag-10663126a/"
                     />
                 </div>

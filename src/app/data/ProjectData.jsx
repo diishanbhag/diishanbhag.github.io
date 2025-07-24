@@ -28,7 +28,7 @@ const ProjectsData = [
     title: "Micro Class Plane",
     description: "Built a micro class plane for the SAE DDC 24 and won AIR 4 overall and AIR 2 under best presentation",
     image: "/images/projects/indi.png",
-    tag: ["All", "Other"],
+    tag: ["All", "other"],
     tech:["Aero",],
     gitUrl: "",
     previewUrl: "",

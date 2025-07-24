@@ -3,8 +3,7 @@
         {
             "Machine Learning": [
                 { name: 'Python', level: 'Advanced' },
-                { name: 'Computer Vision', level: 'Advance' },
-                { name: 'Deep Learning', level: 'Intermediate' },
+                { name: 'Machine Learning', level: 'Intermediate' },
                 { name: 'TensorFlow', level: 'Intermediate' },
                 { name: 'Pytorch', level: 'Intermediate' },
                 { name: 'Scikit-learn', level: 'Intermediate' },
@@ -25,7 +24,6 @@
             "Web Development": [
                 { name: 'React', level: 'Intermediate' },
                 { name: 'Next.js', level: 'Intermediate' },
-                { name: 'Tailwind CSS', level: 'Intermediate' },
                 {name : 'Node.js', level: 'Intermediate'},
                 {name : 'Express.js', level: 'Intermediate'},
                 {name : 'MongoDB', level: 'Intermediate'},
