@@ -77,23 +77,9 @@ const ProjectsData = [
     gitUrl: "",
     previewUrl: "",
   },
-  {
-    id: 20,
-    title: "Vehicle detection",
-    description: "Detection of vehicle overspeeding and lane change for trucks for a camera footage ",
-    image: "/images/projects/audio.gif",
-    tag: [ "Machine Learning"],
-    tech:["Yolov8" ,"CNN"],
-    gitUrl: "",
-    previewUrl: "",
-  },
+
 
   
-
-
-
-
-
 
   {
     id: 17,

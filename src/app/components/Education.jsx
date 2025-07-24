@@ -16,8 +16,11 @@ const Education = () => {
             achievements: [
                 'MRD Scholarship for being in top 20% in I Semester', 
                 'MRD Scholarship for being in top 20% in II Semester',
-                'MRD Scholarship for being in top 20% in III Semester', 
-                'MRD Scholarship for being in top 20% in V Semester', 
+                'CNR Scholarship for being in top 20% in III Semester', 
+                'CNR Scholarship for being in top 20% in V Semester', 
+                'AIR 4 overall and AIR 2 under Best presenttion in SAE DDC',
+                'Best Paper Award at FICTA-25',
+                'Winner of throwball at Infiny-24'
             
             ],
 
