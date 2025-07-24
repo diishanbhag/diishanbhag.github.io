@@ -10,33 +10,37 @@ const Education = () => {
         {
             course: 'B.Tech C.S.E',
             school: 'PES University, Bangalore',
-            timeDuration: '2021 - 2025',
-            grade: 'CGPA: 8.56',
+            timeDuration: '2022 - 2026',
+            grade: 'CGPA: 8.8',
 
             achievements: [
-                'MRD Scholarship for being in top 20% in II Semester', 
+                'MRD Scholarship for being in top 20% in I Semester', 
+                'MRD Scholarship for being in top 20% in II Semester',
                 'MRD Scholarship for being in top 20% in III Semester', 
-                'MRD Scholarship for being in top 20% in IV Semester', 
+                'MRD Scholarship for being in top 20% in V Semester', 
             
             ],
 
         },
         {
             course: '11th and 12th Grade',
-            school: 'Rajendra Vidyalaya, Jamshedput',
-            timeDuration: '2019 - 2021',
-            grade: 'ISC  Percentage: 92%',
+            school: 'Presidency School Bangalore South',
+            timeDuration: '2020 - 2022',
+            grade: 'CBSE  Percentage: 93%',
 
             achievements: []
 
         },
         {
             course: '9th and 10th Grade',
-            school: 'Rajendra Vidyalaya, Jamshedput',
-            timeDuration: '2018',
-            grade: 'ICSE  Percentage: 92.6%',
+            school: 'Mitra Academy',
+            timeDuration: '2018-2020',
+            grade: 'ICSE  Percentage: 97%',
 
-            achievements: []
+            achievements: ['Best Outgoing Student',
+                        'ARA memorial Awars',
+                         'Sports Championship Award',
+                        'Manekshaw Parade Ground Winners- Marchpast']
 
         },
         

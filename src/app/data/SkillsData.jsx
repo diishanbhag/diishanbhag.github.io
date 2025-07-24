@@ -1,19 +1,6 @@
 
     const skills = [
         {
-            "Web Development": [
-                { name: 'React', level: 'Advance' },
-                { name: 'Next.js', level: 'Advance' },
-                { name: 'Tailwind CSS', level: 'Advance' },
-                {name : 'Node.js', level: 'Intermediate'},
-                {name : 'Express.js', level: 'Intermediate'},
-                {name : 'MongoDB', level: 'Intermediate'},
-                {name : 'MYSQL', level: 'Intermediate'},
-                {name : 'Svelte', level: 'Beginner'},
-                
-            ],
-        },
-        {
             "Machine Learning": [
                 { name: 'Python', level: 'Advanced' },
                 { name: 'Computer Vision', level: 'Advance' },
@@ -32,7 +19,18 @@
                 { name: 'Matplotlib', level: 'Intermediate' },
                 { name: 'Seaborn', level: 'Intermediate' },
                 { name: 'Scikit-learn', level: 'Intermediate' },
-                { name: 'Tableau', level: 'Beginner' },
+            ],
+        },
+        {
+            "Web Development": [
+                { name: 'React', level: 'Intermediate' },
+                { name: 'Next.js', level: 'Intermediate' },
+                { name: 'Tailwind CSS', level: 'Intermediate' },
+                {name : 'Node.js', level: 'Intermediate'},
+                {name : 'Express.js', level: 'Intermediate'},
+                {name : 'MongoDB', level: 'Intermediate'},
+                {name : 'MYSQL', level: 'Intermediate'},
+                
             ],
         },
         // {

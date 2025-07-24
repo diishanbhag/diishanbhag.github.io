@@ -28,7 +28,7 @@ const HeroSection = () => {
                                 sequence={[
                                     "Sampurn",
                                     1200,
-                                    "Web Developer",
+                                    "Big Data , Data Analyst",
                                     1000,
                                     "AI / ML Enthusiast",
                                     1000,

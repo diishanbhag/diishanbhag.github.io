@@ -1,65 +1,34 @@
 const ExperienceList = [
   {
-    company: 'CognitiveLab',
-    companyDescription: 'Data engineering company specializing in cognitive computing solutions',
-    timeDuration: 'April 2024 - Present',
-    location: 'Online, Part Time',
-    type: 'Data Engineer',
-    title: 'Data Engineer',
-    detail: 'Managed ingestion and preprocessing of 20+ data sources for Vector DB compatibility.',
-    description: [
-      'Managed ingestion and preprocessing of 20+ data sources for Vector DB compatibility.',
-      'Implemented effective data chunking techniques, resulting in a 20% reduction in database query response time, enhancing system performance and scalability.',
-      'Created a streamlined data preparation pipeline, reducing data preparation time by 60% and improving overall team efficiency.'
+    company: 'BOSCH BGSW',
+    companyDescription: 'Bosch is a leading supplier of technology and services in the areas of Mobility Solutions, Industrial Technology, Consumer Goods, and Energy and Building Technology.',
+    timeDuration: 'June 2025 - Present',
+    location: 'Offline',
+    type: 'AI/ML Intern',
+    title: 'AI/ML Intern',
+    detail: 'Built an Agentic AI pipeline for Infotainment Voice car Solutions',
+    description: ['Built an overall pippeline of data generation + training',
+                  'DistilBERT used for training 100+ commands under each domain',
+                  'Achieved a test accuracy of 93% and gave a demo to some Clients as a POC.'
     ],
-    technologies: ['Data Engineering', 'Data Processing', 'Python']
+    technologies: ['Data Engineering', 'Data Processing', 'Python','BERT' ,'Agentic AI','Tensorflow','Torch']
   },
     {
-      company: 'STARC',
-      companyDescription: 'Sports Analytics Summer Internship program by PES University.',
-      timeDuration: 'June 2023 - August 2023',
+      company: 'Centre for Cognitive Computing and Computational Intelligence ',
+      companyDescription: 'Research Centre at PES University specialising in ML-NLP solutions',
+      timeDuration: 'May 2024 - July 2024',
       location: 'Bengaluru, India',
       type: 'Summer Internship',
-      title: 'Team Lead and Lead Coder',
-      detail: 'Computer Vision-Based  Form Analysis and Correction System',
+      title: 'Lead Coder',
+      detail: 'Built an Intelligent Proximity-Based Tourism Recommendation System with NLP-Driven Summarization and Multilingual Support ',
       description: [
-        'Led a team in developing a Computer Vision-Based Form Analysis and Correction System.',
-        'Created a Deep Neural Network model to analyze exercise forms.',
-        'Integrated a reverse image search feature providing visual feedback for exercise form correction.',
-        'Achieved an impressive form assessment accuracy of 93%, enhancing safety and effectiveness in fitness training.',
+        'Conducted a comparative analysis of CLS and N2 layer embeddings, leading to improved model selection. ',
+        'Built a website with a recommender system and a smart summariser',
+        'Wrote and presented a research paper at FICTA-25 held in London and also won the Best Paper Award ',
+        
       ],
-      technologies: ['Python', 'OpenCV', 'Tensorflow', 'Mediapipe', 'YoloNas'],
-    },
-    {
-      company: 'Urban Pro',
-      companyDescription: 'Online Teaching Platform for peer-to-peer learning',
-      timeDuration: 'January 2023 - March 2023',
-      location: 'Remote, India',
-      type: 'Freelancing',
-      title: 'Data Structures / Web Development Tutor',
-      detail: 'Taught Data Structures and Web Development to 10+ students',
-      description: [
-        'Provided tutoring services for Data Structures and Web Development to more than 10 students.',
-        'Delivered interactive sessions focusing on problem-solving and algorithmic thinking.',
-        'Covered programming languages including Python, C, C++ and web technologies like HTML, CSS, Javascript, and React.',
-      ],
-      technologies: ['Python', 'C', 'C++', 'Data Structures', 'Problem Solving', 'HTML', 'CSS', 'JavaScript', 'React'],
-    },
-    // {
-    //   company: 'Urban Pro',
-    //   companyDescription: 'Online Teaching Platform for peer-to-peer learning',
-    //   timeDuration: 'July 2021 - August 2021',
-    //   location: 'Remote, India',
-    //   type: 'Freelancing',
-    //   title: 'Java Tutor',
-    //   detail: 'Taught Java to High School Students',
-    //   description: [
-    //     'Provided comprehensive Java tutoring sessions to high school students.',
-    //     'Emphasized object-oriented programming concepts and problem-solving skills.',
-    //     'Helped students grasp core Java principles and apply them to real-world scenarios.',
-    //   ],
-    //   technologies: ['Java', 'OOPs', 'Problem Solving'],
-    // },
+      technologies: ['Python', 'BERT', 'Content-Based Filtering'],
+    }
   ];
 
 export default ExperienceList;

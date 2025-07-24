@@ -3,7 +3,7 @@ import AboutItem from './AboutItem'
 import Kaggle from '../../../public/kaggle.svg'
 import Leetcode from '../../../public/leetcode.svg'
 import GithubIcon from '../../../public/github-icon.svg'
-
+import Linkdin from '../../../public/linkedin-icon.svg'
 
 const AboutItems = () => {
     return (
@@ -12,22 +12,15 @@ const AboutItems = () => {
                     <AboutItem
                         icon={GithubIcon}
                         title={"Open Source"}
-                        href="https://github.com/KumarSampurn"
+                        href="https://github.com/diishanbhag"
 
                     />
                 </div>
                 <div className="flex justify-center items-center">
                     <AboutItem
-                        icon={Leetcode}
-                        title={"Problem Solving"}
-                        href="https://leetcode.com/_Epsilon/"
-                    />
-                </div>
-                <div className="flex justify-center items-center">
-                    <AboutItem
-                        icon={Kaggle}
+                        icon={Linkdin}
                         title={"Kaggle Notebooks"}
-                        href="https://www.kaggle.com/kumarsampurn"
+                        href="https://www.linkedin.com/in/disha-shanbhag-10663126a/"
                     />
                 </div>
             </div>

@@ -39,7 +39,7 @@ const ProjectSectionn = () => {
 
 
   // Slice the displayed projects to show only the first three
-  const displayedProjects = showMore ? filteredProjects : filteredProjects.slice(0, 3);
+  const displayedProjects = showMore ? filteredProjects : filteredProjects.slice(0, 2);
 
   return (
     <section id="projects" className='pt-6 px-5'>
@@ -61,14 +61,25 @@ const ProjectSectionn = () => {
 
           <ProjectTag
             onClick={handleTagChange}
-            name="Data Science"
-            isSelected={tag === "Data Science"}
+            name="Big Data"
+            isSelected={tag === "Big Data"}
           />
 
           <ProjectTag
             onClick={handleTagChange}
             name="Web Dev"
             isSelected={tag === "Web Dev"}
+          />
+
+          <ProjectTag
+            onClick={handleTagChange}
+            name="Art and Design"
+            isSelected={tag === "Art and Design"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="other"
+            isSelected={tag === "Other"}
           />
 
         </div>

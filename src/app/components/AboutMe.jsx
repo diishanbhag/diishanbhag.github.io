@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className="text-lg mx-5 text-gray-400">
         Hey, I&apos;m{" "}
         <span className='text-xl font-bold  text-gray-100'>
-        Sampurn
+        Disha
         </span> , a junior at <span className='font-semibold  text-gray-300'>
         PES University, Bangalore
         </span>, pursuing a B.Tech in <span className=' font-semibold  text-gray-300'>
